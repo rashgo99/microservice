@@ -1,0 +1,10 @@
+spring:
+ application:
+  name: myprop 
+ cloud:
+  config:
+   uri: http://localhost:8085
+   fail-fast: true
+management:
+ security:
+  enabled: false
